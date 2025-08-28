@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <header>
+        <h1>Media</h1>
+        <nav>
+            <ul>
+                <li><a href="forms.html">Home</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Beginning of the audio section-->
+        <section id="audioSample"></section>
+            <!--Heading for audio selection-->
+            <h2>Audio with controls</h2>
+            <!--the 'controls' attribute adds audio controls like play, pause, and volume-->
+            <audio controls>
+                <!--source for audio file-->
+                <!--the 'src' attribute specifies the path to the audio file location-->
+                <source src="audio1.mp3" type="audio/mpeg">
+                <!--Fallback content in case the audio isn't supported-->
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <!--End of audio section-->
+        <hr>
+        <!--Beginning of the video section-->
+        <section id="videoSample">
+            <!--Heading for video selection-->
+            <h2>Video with controls</h2>
+
+            <!--the 'controls' attribute adds video controls like play, pause, and volume-->
+            <video width="320" height="240" controls>
+                <!--source for video file-->
+                <!--The 'src' attribute specifies the path to the video file location-->
+                <source src="video1.mp4" type="video/mp4">
+                <!--Fallback content in case the video isn't supported-->
+                Your browser does not support the video element.
+            </video>
+        </section>
+        <!--End of video section-->
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Brandon SilviBarr</p>
+        <p><a href="https://github.com/brandonsilvi/COMP001A.LectureActivity4" target="_blank">Lecture Activity 4 GitHub Repository</a></p>
+    </footer>
+</body>
+</html>
