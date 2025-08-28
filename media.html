@@ -18,15 +18,15 @@
         </nav>
     </header>
     <main>
+        <!--Warning from W3C Validator due to header being missing. warning cleared but leaving note in. -->
         <!--Beginning of the audio section-->
-        <section id="audioSample"></section>
-            <!--Heading for audio selection-->
+        <section id="audioSample">
             <h2>Audio with controls</h2>
             <!--the 'controls' attribute adds audio controls like play, pause, and volume-->
             <audio controls>
                 <!--source for audio file-->
                 <!--the 'src' attribute specifies the path to the audio file location-->
-                <source src="audio1.mp3" type="audio/mpeg">
+                <source src="media/welcome.mp3" type="audio/mpeg">
                 <!--Fallback content in case the audio isn't supported-->
                 Your browser does not support the audio element.
             </audio>
@@ -42,7 +42,7 @@
             <video width="320" height="240" controls>
                 <!--source for video file-->
                 <!--The 'src' attribute specifies the path to the video file location-->
-                <source src="video1.mp4" type="video/mp4">
+                <source src="media/sampson.mp4" type="video/mp4">
                 <!--Fallback content in case the video isn't supported-->
                 Your browser does not support the video element.
             </video>
